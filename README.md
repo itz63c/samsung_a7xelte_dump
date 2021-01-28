@@ -1,0 +1,13 @@
+# a7xeltexx-user 7.0 NRD90M A710FXXU2CRK1 release-keys
+- manufacturer: samsung
+- platform: exynos5
+- codename: a7xelte
+- flavor: a7xeltexx-user
+- release: 7.0
+- id: NRD90M
+- incremental: A710FXXU2CRK1
+- tags: release-keys
+- fingerprint: samsung/a7xeltexx/a7xelte:7.0/NRD90M/A710FXXU2CRK1:user/release-keys
+- brand: samsung
+- branch: a7xeltexx-user-7.0-NRD90M-A710FXXU2CRK1-release-keys
+- repo: samsung_a7xelte_dump

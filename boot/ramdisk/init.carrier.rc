@@ -1,0 +1,15 @@
+
+
+on boot
+# IMS Stack
+service imsd /system/bin/imsd
+    class main
+    socket imsd stream 0660 system system
+    user root
+    group system radio net_raw inet net_admin readproc
+
+# Move 2 SD card
+service extSdUFSVold /system/bin/extSDCardServiceVold
+    class main
+    user system
+    group system mount radio net_bt sdcard_rw shell media media_rw
